@@ -1,0 +1,4 @@
+services:
+  tunnel:
+    image: cloudflare/cloudflared:latest
+    entrypoint: ["cloudflared", "tunnel", "--no-autoupdate", "run", "--token", "${CLOUDFLARE_TOKEN}"]
