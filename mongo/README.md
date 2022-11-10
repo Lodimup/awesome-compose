@@ -4,7 +4,7 @@ In terminal type:
 cd <path-to-mongo>
 make
 ```
-download: https://www.mongodb.com/try/download/compass\
+download: https://www.mongodb.com/try/download/compass
 connect with
 ```
 mongodb://root:example@localhost:27017/
